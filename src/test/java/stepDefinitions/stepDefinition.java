@@ -5,6 +5,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.lv.Tad;
+import io.cucumber.testng.CucumberOptions;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 import yourCart.addProduct;
 import yourCart.cart;
 
@@ -17,7 +20,7 @@ public class stepDefinition {
 
     @Given(": Open the Swag labs in browser")
     public void openTheSwagLabsInBrowser() {
-        System.setProperty("BASE_DRIVER_CHROME", "CHROME_DRIVER_LOCATION");
+//        System.setProperty("BASE_DRIVER_CHROME", "CHROME_DRIVER_LOCATION");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         driver.get("https://www.saucedemo.com/");
@@ -25,19 +28,26 @@ public class stepDefinition {
 
     @And(": Input username and password")
     public void inputUsernameAndPassword() {
-        loginValidAkun loginAkun = new loginValidAkun(driver);
+//        loginValidAkun loginAkun = new loginValidAkun(driver);
+//
+//        loginAkun.InputUsername().sendKeys("standard_user");
+//        loginAkun.InputPassword().sendKeys("secret_sauce");
 
-        loginAkun.InputUsername().sendKeys("standard_user");
-        loginAkun.InputPassword().sendKeys("secret_sauce");
+        loginValidAkun login = PageFactory.initElements(driver, loginValidAkun.class);
+        login.InputUsername("standard_user");
+        login.InputPassword("secret_sauce");
 
     }
 
     @And(": Click login")
     public void clickLogin() {
 
-        loginValidAkun ClickLogin = new loginValidAkun(driver);
+        loginValidAkun clck = PageFactory.initElements(driver, loginValidAkun.class);
+        clck.ClickButton();
 
-        ClickLogin.ClickButtonLogin().click();
+//        loginValidAkun ClickLogin = new loginValidAkun(driver);
+//
+//        ClickLogin.ClickButtonLogin().click();
     }
 
     @Then(": System displays the product page")
@@ -64,3 +74,6 @@ public class stepDefinition {
 
     }
 }
+
+
+
