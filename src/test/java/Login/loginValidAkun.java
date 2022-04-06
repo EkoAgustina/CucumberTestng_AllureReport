@@ -16,7 +16,7 @@ public class loginValidAkun {
 
     @FindBy(how = How.XPATH, using = "//input[@id='user-name']") WebElement Username;
     @FindBy(how = How.XPATH, using = "//input[@id='password']") WebElement Password;
-    @FindBy(how = How.XPATH, using = "//input[@id='password']") WebElement ButtonLogin;
+    @FindBy(how = How.XPATH, using = "//input[@id='login-button']") WebElement ButtonLogin;
 
 
 //    By Usrnm = By.xpath("//input[@id='user-name']");
