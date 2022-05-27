@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "User logs in with a valid account",
+      "uid" : "7063d8270a843d69",
+      "parentUid" : "1a85855463aca3ea10b8fe0fcb3372b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652430257204,
+        "stop" : 1652430270426,
+        "duration" : 13222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 30,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1a85855463aca3ea10b8fe0fcb3372b8"
+  }, {
+    "name" : "Your Cart",
+    "children" : [ {
+      "name" : "User adds product to cart",
+      "uid" : "4cb5a26eeb65ce88",
+      "parentUid" : "c45ea5a4b6074bd7bfc38242329cffdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652430271618,
+        "stop" : 1652430274239,
+        "duration" : 2621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 29,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c45ea5a4b6074bd7bfc38242329cffdf"
+  } ]
+}

@@ -1,0 +1,114 @@
+{
+  "8123f758939a2fd429cbb549b1378727" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "4cb5a26eeb65ce88",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/5/allure/#testresult/4cb5a26eeb65ce88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652430271618,
+        "stop" : 1652430274239,
+        "duration" : 2621
+      }
+    }, {
+      "uid" : "ec4b3fa679df7c03",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/4/allure/#testresult/ec4b3fa679df7c03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652178439841,
+        "stop" : 1652178440752,
+        "duration" : 911
+      }
+    }, {
+      "uid" : "a675c0737a578ad4",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/3/allure/#testresult/a675c0737a578ad4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649846258424,
+        "stop" : 1649846260190,
+        "duration" : 1766
+      }
+    }, {
+      "uid" : "ca1be11a8728884e",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/2/allure/#testresult/ca1be11a8728884e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649845250408,
+        "stop" : 1649845251796,
+        "duration" : 1388
+      }
+    }, {
+      "uid" : "33b5bb109aca8538",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/1/allure/#testresult/33b5bb109aca8538",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649391870010,
+        "stop" : 1649391871719,
+        "duration" : 1709
+      }
+    } ]
+  },
+  "e92ec0509e6a98dd8af183cb1bcd3379" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "7063d8270a843d69",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/5/allure/#testresult/7063d8270a843d69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652430257204,
+        "stop" : 1652430270426,
+        "duration" : 13222
+      }
+    }, {
+      "uid" : "5292c55c35174699",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/4/allure/#testresult/5292c55c35174699",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652178431163,
+        "stop" : 1652178439482,
+        "duration" : 8319
+      }
+    }, {
+      "uid" : "9d7e2ff092ba311e",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/3/allure/#testresult/9d7e2ff092ba311e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649846240933,
+        "stop" : 1649846257873,
+        "duration" : 16940
+      }
+    }, {
+      "uid" : "2958992a80d66208",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/2/allure/#testresult/2958992a80d66208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649845235782,
+        "stop" : 1649845249415,
+        "duration" : 13633
+      }
+    }, {
+      "uid" : "da5edce7f1c405ca",
+      "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/1/allure/#testresult/da5edce7f1c405ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649391856758,
+        "stop" : 1649391869535,
+        "duration" : 12777
+      }
+    } ]
+  }
+}

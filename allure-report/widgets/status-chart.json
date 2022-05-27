@@ -1,0 +1,21 @@
+[ {
+  "uid" : "4cb5a26eeb65ce88",
+  "name" : "User adds product to cart",
+  "time" : {
+    "start" : 1652430271618,
+    "stop" : 1652430274239,
+    "duration" : 2621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7063d8270a843d69",
+  "name" : "User logs in with a valid account",
+  "time" : {
+    "start" : 1652430257204,
+    "stop" : 1652430270426,
+    "duration" : 13222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

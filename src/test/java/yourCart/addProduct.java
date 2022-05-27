@@ -11,6 +11,7 @@ public class addProduct {
     By prdct2 =By.xpath("//button[@id='add-to-cart-sauce-labs-bike-light']");
 
     public addProduct (WebDriver driver){
+
         this.driver=driver;
     }
 

@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 @Test()
 @CucumberOptions(
         features = "src/test/resources/SwagLabs"
-        ,glue = {"stepDefinitions", "cucumberHooks"}
+        ,glue = "stepDefinitions"
         ,plugin = {"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
         ,tags = ""
         ,monochrome = true
