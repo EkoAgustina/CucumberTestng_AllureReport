@@ -1,0 +1,149 @@
+{
+  "uid" : "8a7b39a16c825824",
+  "name" : "User adds product to cart",
+  "fullName" : "Your Cart: User adds product to cart",
+  "historyId" : "8123f758939a2fd429cbb549b1378727",
+  "time" : {
+    "start" : 1652178439841,
+    "stop" : 1652178440752,
+    "duration" : 911
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  : Open the Swag labs in browser",
+      "time" : {
+        "start" : 1652178439842,
+        "stop" : 1652178440026,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Input username and password",
+      "time" : {
+        "start" : 1652178440027,
+        "stop" : 1652178440301,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Click login",
+      "time" : {
+        "start" : 1652178440303,
+        "stop" : 1652178440436,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Add to cart products",
+      "time" : {
+        "start" : 1652178440436,
+        "stop" : 1652178440652,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Click the cart icon",
+      "time" : {
+        "start" : 1652178440653,
+        "stop" : 1652178440751,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-T3FFUFN"
+  }, {
+    "name" : "thread",
+    "value" : "8468@DESKTOP-T3FFUFN.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Your Cart"
+  }, {
+    "name" : "story",
+    "value" : "User adds product to cart"
+  }, {
+    "name" : "suite",
+    "value" : "Your Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "User adds product to cart"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/asani/IdeaProjects/CucumberTestng_AllureReport/src/test/resources/SwagLabs/2.YourCart.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.SwagLabs.2_YourCart_feature.Your Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a7b39a16c825824.json",
+  "parameterValues" : [ ]
+}

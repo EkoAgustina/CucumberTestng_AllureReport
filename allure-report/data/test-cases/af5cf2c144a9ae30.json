@@ -1,0 +1,651 @@
+{
+  "uid" : "af5cf2c144a9ae30",
+  "name" : "User adds product to cart",
+  "fullName" : "Your Cart: User adds product to cart",
+  "historyId" : "8123f758939a2fd429cbb549b1378727",
+  "time" : {
+    "start" : 1654612764584,
+    "stop" : 1654612765623,
+    "duration" : 1039
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 53,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  : Open the Swag labs in browser",
+      "time" : {
+        "start" : 1654612764584,
+        "stop" : 1654612764805,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Input username and password",
+      "time" : {
+        "start" : 1654612764805,
+        "stop" : 1654612765159,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Click login",
+      "time" : {
+        "start" : 1654612765160,
+        "stop" : 1654612765309,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Add to cart products",
+      "time" : {
+        "start" : 1654612765310,
+        "stop" : 1654612765486,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Click the cart icon",
+      "time" : {
+        "start" : 1654612765486,
+        "stop" : 1654612765623,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-T3FFUFN"
+  }, {
+    "name" : "thread",
+    "value" : "10032@DESKTOP-T3FFUFN.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Your Cart"
+  }, {
+    "name" : "story",
+    "value" : "User adds product to cart"
+  }, {
+    "name" : "suite",
+    "value" : "Your Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "User adds product to cart"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/asani/IdeaProjects/CucumberTestng_AllureReport/src/test/resources/SwagLabs/2.YourCart.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.SwagLabs.2_YourCart_feature.Your Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ed8debc55e21c28b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654612520098,
+        "stop" : 1654612520997,
+        "duration" : 899
+      }
+    }, {
+      "uid" : "108d5a3a778c8cfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654612484558,
+        "stop" : 1654612485664,
+        "duration" : 1106
+      }
+    }, {
+      "uid" : "fe307922e26fd4ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654612210091,
+        "stop" : 1654612210953,
+        "duration" : 862
+      }
+    }, {
+      "uid" : "78cd839eaf5d9400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654587950095,
+        "stop" : 1654587951387,
+        "duration" : 1292
+      }
+    }, {
+      "uid" : "f2203a1ca13680fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654587461137,
+        "stop" : 1654587462123,
+        "duration" : 986
+      }
+    }, {
+      "uid" : "6359541437cc9c79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654510187770,
+        "stop" : 1654510189020,
+        "duration" : 1250
+      }
+    }, {
+      "uid" : "a0722fabf18179c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654510096627,
+        "stop" : 1654510097730,
+        "duration" : 1103
+      }
+    }, {
+      "uid" : "d86cf0413adeaec4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653894647553,
+        "stop" : 1653894649359,
+        "duration" : 1806
+      }
+    }, {
+      "uid" : "ae1494e57c19629",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class Utils.chromeBrowser",
+      "time" : {
+        "start" : 1653894581093,
+        "stop" : 1653894581118,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "e7812e292da3468d",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class Utils.chromeBrowser",
+      "time" : {
+        "start" : 1653876516068,
+        "stop" : 1653876516107,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "227fff194a5d10bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653631970584,
+        "stop" : 1653631972725,
+        "duration" : 2141
+      }
+    }, {
+      "uid" : "c975151f6a4bdcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653582062063,
+        "stop" : 1653582063144,
+        "duration" : 1081
+      }
+    }, {
+      "uid" : "ac56f214bba94bf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653581920964,
+        "stop" : 1653581921988,
+        "duration" : 1024
+      }
+    }, {
+      "uid" : "7639e39660de354b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653581799239,
+        "stop" : 1653581800364,
+        "duration" : 1125
+      }
+    }, {
+      "uid" : "285e662a95460134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653581760888,
+        "stop" : 1653581762280,
+        "duration" : 1392
+      }
+    }, {
+      "uid" : "a4037c9c3e4a66c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653494269412,
+        "stop" : 1653494270524,
+        "duration" : 1112
+      }
+    }, {
+      "uid" : "c0f3154c41af0658",
+      "status" : "broken",
+      "statusDetails" : "unknown error: failed to change window state to 'normal', current state is 'maximized'\n  (Session info: chrome=101.0.4951.67)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DESKTOP-T3FFUFN', ip: '192.168.30.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2c9f9ca838760a5d9f6cfebd51955fb6, maximizeCurrentWindow {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\asani\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54118/devtoo..., se:cdpVersion: 101.0.4951.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2c9f9ca838760a5d9f6cfebd51955fb6",
+      "time" : {
+        "start" : 1653494193464,
+        "stop" : 1653494193712,
+        "duration" : 248
+      }
+    }, {
+      "uid" : "cf03c55def9ddf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653203060188,
+        "stop" : 1653203062258,
+        "duration" : 2070
+      }
+    }, {
+      "uid" : "16c176e8c1197c67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652708110132,
+        "stop" : 1652708111313,
+        "duration" : 1181
+      }
+    }, {
+      "uid" : "fb07cf347f09fb27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652707978790,
+        "stop" : 1652707980085,
+        "duration" : 1295
+      }
+    }, {
+      "uid" : "f38779c5c9eaa373",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652707910840,
+        "stop" : 1652707911642,
+        "duration" : 802
+      }
+    }, {
+      "uid" : "7ec367d975035934",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=101.0.4951.54)\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DESKTOP-T3FFUFN', ip: '192.168.4.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2ae74ff57000e4af733848fefbe4d908, get {url=https://www.saucedemo.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\asani\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50985}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50985/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ae74ff57000e4af733848fefbe4d908",
+      "time" : {
+        "start" : 1652707866254,
+        "stop" : 1652707866395,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "13a690136e3058fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652693265307,
+        "stop" : 1652693266873,
+        "duration" : 1566
+      }
+    }, {
+      "uid" : "eb958987fdc46d45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652430271618,
+        "stop" : 1652430274239,
+        "duration" : 2621
+      }
+    }, {
+      "uid" : "f621883efd2a9a7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652349468796,
+        "stop" : 1652349469853,
+        "duration" : 1057
+      }
+    }, {
+      "uid" : "3f5fce7cbd92c7a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652349380745,
+        "stop" : 1652349381452,
+        "duration" : 707
+      }
+    }, {
+      "uid" : "8a7b39a16c825824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652178439841,
+        "stop" : 1652178440752,
+        "duration" : 911
+      }
+    }, {
+      "uid" : "8c8bf639e22430bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652177804470,
+        "stop" : 1652177806011,
+        "duration" : 1541
+      }
+    }, {
+      "uid" : "9a128318c6d95bf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649846258424,
+        "stop" : 1649846260190,
+        "duration" : 1766
+      }
+    }, {
+      "uid" : "1651a549052815c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649845250408,
+        "stop" : 1649845251796,
+        "duration" : 1388
+      }
+    }, {
+      "uid" : "103447332d437748",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649391870010,
+        "stop" : 1649391871719,
+        "duration" : 1709
+      }
+    }, {
+      "uid" : "dab6ff7327c066e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649341312559,
+        "stop" : 1649341313684,
+        "duration" : 1125
+      }
+    }, {
+      "uid" : "f87f3d5789f1cfef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649340764358,
+        "stop" : 1649340765705,
+        "duration" : 1347
+      }
+    }, {
+      "uid" : "66c6efa365d15cb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649340168785,
+        "stop" : 1649340169801,
+        "duration" : 1016
+      }
+    }, {
+      "uid" : "e683001a9a1723f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649333178098,
+        "stop" : 1649333178713,
+        "duration" : 615
+      }
+    }, {
+      "uid" : "b596e11819256c2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649332970944,
+        "stop" : 1649332971536,
+        "duration" : 592
+      }
+    }, {
+      "uid" : "4a037344361a2be8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649332875113,
+        "stop" : 1649332875883,
+        "duration" : 770
+      }
+    }, {
+      "uid" : "c2facd9c789fc59c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649260372724,
+        "stop" : 1649260374053,
+        "duration" : 1329
+      }
+    }, {
+      "uid" : "79005530504869b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649260088027,
+        "stop" : 1649260089193,
+        "duration" : 1166
+      }
+    }, {
+      "uid" : "47a14c9fc04e4a1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649259590155,
+        "stop" : 1649259591323,
+        "duration" : 1168
+      }
+    }, {
+      "uid" : "2b597cbfa163869d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649259291956,
+        "stop" : 1649259293255,
+        "duration" : 1299
+      }
+    }, {
+      "uid" : "646e244cfdc8cfe7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id='add-to-cart-sauce-labs-backpack']\"}\n  (Session info: chrome=100.0.4896.60)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DESKTOP-T3FFUFN', ip: '192.168.30.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c1440233b64dd0f83f50b8e11d84ec2c, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\asani\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52064/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c1440233b64dd0f83f50b8e11d84ec2c",
+      "time" : {
+        "start" : 1649259038714,
+        "stop" : 1649259042298,
+        "duration" : 3584
+      }
+    }, {
+      "uid" : "a6d0f811b72ee9b6",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id='add-to-cart-sauce-labs-backpack']\"}\n  (Session info: chrome=100.0.4896.60)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DESKTOP-T3FFUFN', ip: '10.201.73.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f8207584148d19b92b3040093bad22c9, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\asani\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56057/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f8207584148d19b92b3040093bad22c9",
+      "time" : {
+        "start" : 1649125152923,
+        "stop" : 1649125167457,
+        "duration" : 14534
+      }
+    }, {
+      "uid" : "9580f192567723eb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id='add-to-cart-sauce-labs-backpack']\"}\n  (Session info: chrome=100.0.4896.60)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DESKTOP-T3FFUFN', ip: '192.168.166.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f03020536332280b72a7b518415e8e56, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\asani\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63739/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f03020536332280b72a7b518415e8e56",
+      "time" : {
+        "start" : 1649041364751,
+        "stop" : 1649041367484,
+        "duration" : 2733
+      }
+    }, {
+      "uid" : "ff549a0437644a55",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id='add-to-cart-sauce-labs-backpack']\"}\n  (Session info: chrome=100.0.4896.60)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DESKTOP-T3FFUFN', ip: '192.168.151.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [05607e8c5f64469af55786e5c3828879, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\asani\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58256/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 05607e8c5f64469af55786e5c3828879",
+      "time" : {
+        "start" : 1648967208784,
+        "stop" : 1648967211751,
+        "duration" : 2967
+      }
+    }, {
+      "uid" : "73329ddbf26dad0d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id='add-to-cart-sauce-labs-backpack']\"}\n  (Session info: chrome=100.0.4896.60)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DESKTOP-T3FFUFN', ip: '192.168.151.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [221c99109794607f120c9980342760b9, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\asani\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61664}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61664/devtoo..., se:cdpVersion: 100.0.4896.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 221c99109794607f120c9980342760b9",
+      "time" : {
+        "start" : 1648916964371,
+        "stop" : 1648916967727,
+        "duration" : 3356
+      }
+    }, {
+      "uid" : "4fb33003346204db",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class Utils.chromeBrowser",
+      "time" : {
+        "start" : 1648831221589,
+        "stop" : 1648831221605,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "a8e661866d3a4622",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id='add-to-cart-sauce-labs-backpack']\"}\n  (Session info: chrome=99.0.4844.82)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.2', revision: '9a5a329c5a'\nSystem info: host: 'DESKTOP-T3FFUFN', ip: '192.168.30.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cd623ff1a6241b15ee4bf10dcd9eae7b, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\asani\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52713/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cd623ff1a6241b15ee4bf10dcd9eae7b",
+      "time" : {
+        "start" : 1648392889811,
+        "stop" : 1648392893314,
+        "duration" : 3503
+      }
+    }, {
+      "uid" : "5f481cfc9497bd42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648196818866,
+        "stop" : 1648196820650,
+        "duration" : 1784
+      }
+    }, {
+      "uid" : "26e8b0c13f8db941",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648116057167,
+        "stop" : 1648116058029,
+        "duration" : 862
+      }
+    }, {
+      "uid" : "239f57dfaec21e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648115340200,
+        "stop" : 1648115342232,
+        "duration" : 2032
+      }
+    }, {
+      "uid" : "fd0e36d4909522be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648025209036,
+        "stop" : 1648025210998,
+        "duration" : 1962
+      }
+    }, {
+      "uid" : "aee7902e52fdfcf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648009659494,
+        "stop" : 1648009660662,
+        "duration" : 1168
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "f5224fff10fc2efa",
+        "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/7/allure/#testresult/f5224fff10fc2efa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654510096627,
+          "stop" : 1654510097730,
+          "duration" : 1103
+        }
+      }, {
+        "uid" : "4cb5a26eeb65ce88",
+        "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/5/allure/#testresult/4cb5a26eeb65ce88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652430271618,
+          "stop" : 1652430274239,
+          "duration" : 2621
+        }
+      }, {
+        "uid" : "ec4b3fa679df7c03",
+        "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/4/allure/#testresult/ec4b3fa679df7c03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652178439841,
+          "stop" : 1652178440752,
+          "duration" : 911
+        }
+      }, {
+        "uid" : "a675c0737a578ad4",
+        "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/3/allure/#testresult/a675c0737a578ad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649846258424,
+          "stop" : 1649846260190,
+          "duration" : 1766
+        }
+      }, {
+        "uid" : "ca1be11a8728884e",
+        "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/2/allure/#testresult/ca1be11a8728884e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649845250408,
+          "stop" : 1649845251796,
+          "duration" : 1388
+        }
+      }, {
+        "uid" : "33b5bb109aca8538",
+        "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/1/allure/#testresult/33b5bb109aca8538",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649391870010,
+          "stop" : 1649391871719,
+          "duration" : 1709
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "af5cf2c144a9ae30.json",
+  "parameterValues" : [ ]
+}

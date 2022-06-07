@@ -1,0 +1,134 @@
+{
+  "uid" : "3f1aa7180d1ae3d2",
+  "name" : "User logs in with a valid account",
+  "fullName" : "Login: User logs in with a valid account",
+  "historyId" : "e92ec0509e6a98dd8af183cb1bcd3379",
+  "time" : {
+    "start" : 1652349369642,
+    "stop" : 1652349380360,
+    "duration" : 10718
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  : Open the Swag labs in browser",
+      "time" : {
+        "start" : 1652349369685,
+        "stop" : 1652349379439,
+        "duration" : 9754
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Input username and password",
+      "time" : {
+        "start" : 1652349379456,
+        "stop" : 1652349380157,
+        "duration" : 701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Click login",
+      "time" : {
+        "start" : 1652349380158,
+        "stop" : 1652349380335,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  : System displays the product page",
+      "time" : {
+        "start" : 1652349380336,
+        "stop" : 1652349380356,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-T3FFUFN"
+  }, {
+    "name" : "thread",
+    "value" : "15776@DESKTOP-T3FFUFN.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "story",
+    "value" : "User logs in with a valid account"
+  }, {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "testClass",
+    "value" : "User logs in with a valid account"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/asani/IdeaProjects/CucumberTestng_AllureReport/src/test/resources/SwagLabs/1.Login.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.SwagLabs.1_Login_feature.Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f1aa7180d1ae3d2.json",
+  "parameterValues" : [ ]
+}

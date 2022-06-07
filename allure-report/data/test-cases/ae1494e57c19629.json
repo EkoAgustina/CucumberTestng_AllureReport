@@ -1,0 +1,155 @@
+{
+  "uid" : "ae1494e57c19629",
+  "name" : "User adds product to cart",
+  "fullName" : "Your Cart: User adds product to cart",
+  "historyId" : "8123f758939a2fd429cbb549b1378727",
+  "time" : {
+    "start" : 1653894581093,
+    "stop" : 1653894581118,
+    "duration" : 25
+  },
+  "status" : "broken",
+  "statusMessage" : "Could not initialize class Utils.chromeBrowser",
+  "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class Utils.chromeBrowser\r\n\tat stepDefinitions.stepDefinition.openTheSwagLabsInBrowser(stepDefinition.java:24)\r\n\tat ✽.: Open the Swag labs in browser(file:///C:/Users/asani/IdeaProjects/CucumberTestng_AllureReport/src/test/resources/SwagLabs/2.YourCart.feature:3)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Could not initialize class Utils.chromeBrowser",
+    "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class Utils.chromeBrowser\r\n\tat stepDefinitions.stepDefinition.openTheSwagLabsInBrowser(stepDefinition.java:24)\r\n\tat ✽.: Open the Swag labs in browser(file:///C:/Users/asani/IdeaProjects/CucumberTestng_AllureReport/src/test/resources/SwagLabs/2.YourCart.feature:3)\r\n",
+    "steps" : [ {
+      "name" : "Given  : Open the Swag labs in browser",
+      "time" : {
+        "start" : 1653894581096,
+        "stop" : 1653894581102,
+        "duration" : 6
+      },
+      "status" : "broken",
+      "statusMessage" : "Could not initialize class Utils.chromeBrowser",
+      "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class Utils.chromeBrowser\r\n\tat stepDefinitions.stepDefinition.openTheSwagLabsInBrowser(stepDefinition.java:24)\r\n\tat ✽.: Open the Swag labs in browser(file:///C:/Users/asani/IdeaProjects/CucumberTestng_AllureReport/src/test/resources/SwagLabs/2.YourCart.feature:3)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Input username and password",
+      "time" : {
+        "start" : 1653894581106,
+        "stop" : 1653894581111,
+        "duration" : 5
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Click login",
+      "time" : {
+        "start" : 1653894581113,
+        "stop" : 1653894581115,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Add to cart products",
+      "time" : {
+        "start" : 1653894581115,
+        "stop" : 1653894581117,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  : Click the cart icon",
+      "time" : {
+        "start" : 1653894581117,
+        "stop" : 1653894581118,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-T3FFUFN"
+  }, {
+    "name" : "thread",
+    "value" : "21552@DESKTOP-T3FFUFN.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Your Cart"
+  }, {
+    "name" : "story",
+    "value" : "User adds product to cart"
+  }, {
+    "name" : "suite",
+    "value" : "Your Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "User adds product to cart"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/asani/IdeaProjects/CucumberTestng_AllureReport/src/test/resources/SwagLabs/2.YourCart.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.SwagLabs.2_YourCart_feature.Your Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae1494e57c19629.json",
+  "parameterValues" : [ ]
+}

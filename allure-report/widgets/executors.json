@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8080/ceko/",
-  "buildOrder" : 5,
-  "buildName" : "allureCucumber #5",
-  "buildUrl" : "http://localhost:8080/ceko/job/allureCucumber/5/",
+  "buildOrder" : 8,
+  "buildName" : "allureCucumber #8",
+  "buildUrl" : "http://localhost:8080/ceko/job/allureCucumber/8/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/5/allure"
+  "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/8/allure"
 } ]

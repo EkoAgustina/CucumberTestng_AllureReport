@@ -1,20 +1,20 @@
 [ {
-  "uid" : "4cb5a26eeb65ce88",
+  "uid" : "af5cf2c144a9ae30",
   "name" : "User adds product to cart",
   "time" : {
-    "start" : 1652430271618,
-    "stop" : 1652430274239,
-    "duration" : 2621
+    "start" : 1654612764584,
+    "stop" : 1654612765623,
+    "duration" : 1039
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7063d8270a843d69",
+  "uid" : "1a247fb14993c105",
   "name" : "User logs in with a valid account",
   "time" : {
-    "start" : 1652430257204,
-    "stop" : 1652430270426,
-    "duration" : 13222
+    "start" : 1654612756177,
+    "stop" : 1654612764210,
+    "duration" : 8033
   },
   "status" : "passed",
   "severity" : "normal"

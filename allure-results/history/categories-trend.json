@@ -1,4 +1,14 @@
 [ {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/7/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/5/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
   "buildOrder" : 4,
   "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/4/allure",
   "reportName" : "AllureReport",

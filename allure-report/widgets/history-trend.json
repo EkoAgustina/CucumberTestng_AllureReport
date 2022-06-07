@@ -1,4 +1,28 @@
 [ {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
   "buildOrder" : 5,
   "reportUrl" : "http://localhost:8080/ceko/job/allureCucumber/5/allure",
   "reportName" : "AllureReport",
