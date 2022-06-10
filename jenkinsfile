@@ -1,0 +1,22 @@
+ pipeline {
+    agent any
+
+    stages {
+       stage('Build') {
+          steps {
+             bat 'mvn -B compile'
+          }
+       }
+       stage('Test'){
+           steps{
+               bat 'mvn -B clean install'
+               allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+               }
+       }
+       stage('Archive'){
+           steps{
+               archiveArtifacts 'target/*.jar'
+           }
+       }
+    }
+ }
