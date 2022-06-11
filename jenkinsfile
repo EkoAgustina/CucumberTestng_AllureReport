@@ -1,22 +1,51 @@
- pipeline {
+//  pipeline {
+//     agent any
+//
+//     stages {
+//        stage('Build') {
+//           steps {
+//              bat 'mvn -B compile'
+//           }
+//        }
+//        stage('Test'){
+//            steps{
+//                bat 'mvn -B clean install'
+//                allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+//                }
+//        }
+//        stage('Archive'){
+//            steps{
+//                archiveArtifacts 'target/*.jar'
+//            }
+//        }
+//     }
+//  }
+
+
+pipeline {
     agent any
 
-    stages {
-       stage('Build') {
-          steps {
-             bat 'mvn -B compile'
-          }
-       }
-       stage('Test'){
-           steps{
-               bat 'mvn -B clean install'
-               allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
-               }
-       }
-       stage('Archive'){
-           steps{
-               archiveArtifacts 'target/*.jar'
-           }
-       }
+    options{
+        timestamps()
     }
- }
+
+    stages{
+        stage("Checkout, Test & Publish"){
+            steps{
+                git 'https://github.com/EkoAgustina/Integrate-Cucumber-with-Allure-Report.git'
+            script{
+                bat(/mvn clean test/)
+            }
+
+         }
+        }
+
+         stage('Report'){
+                steps {
+                    allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+              }
+            }
+    }
+
+
+}
