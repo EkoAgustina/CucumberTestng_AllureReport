@@ -1,4 +1,4 @@
-# CucumberTestng_AllureReport
+# Integrate Cucumber with Allure Report
 
 # Request
 1. Java 8 or higher
