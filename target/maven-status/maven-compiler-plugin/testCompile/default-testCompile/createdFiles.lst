@@ -1,7 +1,0 @@
-Login\loginValidAkun.class
-yourCart\addProduct.class
-yourCart\cart.class
-stepDefinitions\stepDefinition.class
-Utils\chromeBrowser.class
-Utils\fUtils.class
-CucumberRunner\TestRunner.class
